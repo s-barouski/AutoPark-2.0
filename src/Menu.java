@@ -17,6 +17,8 @@ public class Menu {
         int choise;
         Car[] autoPark = new Car[99];
         Driver[] drivers = new Driver[99];
+        autoPark  = FileUtil.parseCarFile("auto.txt");
+        drivers = FileUtil.parseDriverFile("drivers.txt");
 
         do {
             System.out.println("для добавления Авто - введите 1; Водителя - 2; Сохранить - 3 ");
@@ -51,8 +53,8 @@ public class Menu {
                     System.out.println("Новый водитель принят!!!");
                     break;
                 case 3:
-                    FileUtil.writeFileAuto("C:\\book\\AutoPark 2.0\\auto.txt", autoPark);
-                    FileUtil.writeFileDriver("C:\\book\\AutoPark 2.0\\drivers.txt", drivers);
+                    FileUtil.writeFileAuto("auto.txt", autoPark);
+                    FileUtil.writeFileDriver("drivers.txt", drivers);
             }
         } while (choise != '0');
     }

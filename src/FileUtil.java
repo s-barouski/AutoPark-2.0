@@ -12,9 +12,11 @@ import java.io.IOException;
 public class FileUtil {
 
     public static void writeText(String path, String text) throws IOException {
+
         FileWriter writer = new FileWriter(path, true);
         writer.write(text + "\n");
         writer.flush();
+
     }
 
     public static void readText(String path) throws IOException {
@@ -73,19 +75,26 @@ public class FileUtil {
 
 
     public static void writeFileDriver(String path, Driver[] drivers) throws IOException {
+        FileWriter writer = new FileWriter(path, false);
         for (int i = 0; i < drivers.length; i++) {
             if (drivers[i] != null) {
-                FileUtil.writeText(path, drivers[i].toString());
+                writer.write(drivers[i].toString() + "\n");
             }
         }
+        writer.flush();
+        writer.close();
     }
 
     public static void writeFileAuto(String path, Car[] autoPark) throws IOException {
+        FileWriter writer = new FileWriter(path, false);
         for (int i = 0; i < autoPark.length; i++) {
             if (autoPark[i] != null) {
-                FileUtil.writeText(path, autoPark[i].toString());
+                writer.write(autoPark[i].toString() + "\n");
+
             }
         }
+        writer.flush();
+        writer.close();
     }
 
 
