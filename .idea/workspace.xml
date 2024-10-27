@@ -5,7 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f45a68e-557d-4023-8c93-08ea44edc6db" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/barouski-artifact-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/org/vederko/FileUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/org/vederko/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/org/vederko/Menu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/org/vederko/TestData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/org/vederko/model/Autopark.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/org/vederko/model/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/org/vederko/model/Driver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/org/vederko/model/Man.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/org/vederko/model/Passenger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/org/vederko/model/People.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/org/vederko/model/Truck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/org/vederko/model/Woman.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/org/vederko/model/enums/Brand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/org/vederko/model/enums/CategoryOfRights.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/org/vederko/model/enums/Color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vederko/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vederko/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vederko/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vederko/TestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Autopark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vederko/model/Autopark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vederko/model/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vederko/model/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Man.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vederko/model/Man.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vederko/model/Passenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vederko/model/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vederko/model/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Woman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vederko/model/Woman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/enums/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vederko/model/enums/Brand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/enums/CategoryOfRights.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vederko/model/enums/CategoryOfRights.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/enums/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vederko/model/enums/Color.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,18 +73,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/book/AutoPark 2.0/src/model&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "maven",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/MyFirstMavenProjekt",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\book\AutoPark 2.0\src\model" />
@@ -61,7 +100,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="main.java.org.test.model.Main" />
       <module name="AutoPark 2.0" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,11 +134,38 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/develop" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
