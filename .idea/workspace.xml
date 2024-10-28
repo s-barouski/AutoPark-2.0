@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f45a68e-557d-4023-8c93-08ea44edc6db" name="Changes" comment="" />
+    <list default="true" id="5f45a68e-557d-4023-8c93-08ea44edc6db" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "maven",
+    "git-widget-placeholder": "developRevert3",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/MyFirstMavenProjekt",
     "project.structure.last.edited": "Modules",
@@ -90,6 +93,15 @@
       <workItem from="1718289660125" duration="767000" />
       <workItem from="1718292703569" duration="8011000" />
     </task>
+    <task id="LOCAL-00001" summary="Revert &quot;add maven&quot;&#10;&#10;This reverts commit e2fe9b41">
+      <option name="closed" value="true" />
+      <created>1730134039314</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730134039314</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +113,11 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="developRevert3" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="origin/develop" />
@@ -132,5 +149,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Revert &quot;add maven&quot;&#10;&#10;This reverts commit e2fe9b41" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;add maven&quot;&#10;&#10;This reverts commit e2fe9b41" />
   </component>
 </project>
