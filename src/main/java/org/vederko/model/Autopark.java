@@ -1,10 +1,19 @@
-package model;
+package main.java.org.vederko.model;
+
 
 public class Autopark {
 
     private String name;
     private Car[] cars;
     private Driver[] drivers;
+    Autopark autoparkVederko = new Autopark();
+    Passenger newAuto = new Passenger();
+
+public int getAuto(){
+    int freeIndex = autoparkVederko.getFreeIndexCar();
+    autoparkVederko.getCars()[freeIndex] = newAuto;
+    return freeIndex;
+}
 
     public int getFreeIndexCar() {
         for (int i = 0; i < cars.length; i++) {
